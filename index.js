@@ -1,9 +1,4 @@
 module.exports = {
-
-    globals: {
-        MyGlobal: true
-    },
-
     extends: [
         'eslint:recommended',
         'plugin:@typescript-eslint/eslint-recommended',
