@@ -4,7 +4,20 @@ module.exports = {
         MyGlobal: true
     },
 
+    extends: [
+        'eslint:recommended',
+        'plugin:@typescript-eslint/eslint-recommended',
+        'plugin:@typescript-eslint/recommended',
+        'plugin:@typescript-eslint/recommended-requiring-type-checking',
+    ],
     rules: {
+        "@typescript-eslint/consistent-type-assertions": 'off',
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/unbound-method": "off",
+        "@typescript-eslint/no-unnecessary-type-assertion": "off",
+        "@typescript-eslint/no-misused-promises": "off",
+        "@typescript-eslint/camelcase": "off",
         "@typescript-eslint/ban-types": [
             "error",
             {
