@@ -13,6 +13,8 @@ module.exports = {
         "@typescript-eslint/no-unnecessary-type-assertion": "off",
         "@typescript-eslint/no-misused-promises": "off",
         "@typescript-eslint/camelcase": "off",
+        "@typescript-eslint/prefer-includes": "off",
+        "@typescript-eslint/prefer-string-starts-ends-with": "off",
         "@typescript-eslint/ban-types": [
             "error",
             {
