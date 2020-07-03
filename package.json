@@ -11,8 +11,8 @@
   },
   "author": "Phrase",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">= 2",
-    "@typescript-eslint/parser": ">= 2",
-    "eslint": ">= 6"
+    "@typescript-eslint/eslint-plugin": "^2",
+    "@typescript-eslint/parser": "^2",
+    "eslint": "^6"
   }
 }
